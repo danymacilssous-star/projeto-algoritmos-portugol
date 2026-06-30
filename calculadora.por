@@ -11,11 +11,11 @@ inicio
    escreva("Digite o segundo número: ")
    leia(numero2)
 
-   escreval("")
-   escreval("1 - Soma")
-   escreval("2 - Subtração")
-   escreval("3 - Multiplicação")
-   escreval("4 - Divisão")
+   escreva("")
+   escreva("1 - Soma")
+   escreva("2 - Subtração")
+   escreva("3 - Multiplicação")
+   escreva("4 - Divisão")
    escreva("Escolha uma operação: ")
    leia(opcao)
 
@@ -23,28 +23,28 @@ inicio
 
       caso 1
          resultado <- numero1 + numero2
-         escreval("Resultado: ", resultado)
+         escreva("Resultado: ", resultado)
       caso 2
          resultado <- numero1 - numero2
-         escreval("Resultado: ", resultado)
+         escreva("Resultado: ", resultado)
       caso 3
          resultado <- numero1 * numero2
-         escreval("Resultado: ", resultado)
+         escreva("Resultado: ", resultado)
       caso 4
          se numero2 <> 0 entao
             resultado <- numero1 / numero2
-            escreval("Resultado: ", resultado)
+            escreva("Resultado: ", resultado)
          senao
-            escreval("Erro: não é possível dividir por zero.")
+            escreva("Erro: não é possível dividir por zero.")
          fimse
       outrocaso
-         escreval("Opção inválida.")
+         escreva("Opção inválida.")
    fimescolha
 fimalgoritmo
 
 
 Bash
-# Iniciar o repositório localgit init
+
 git add calculadora.por
 
 git commit -m "Configuração inicial da estrutura do algoritmo em Portugol"
